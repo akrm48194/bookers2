@@ -81,7 +81,7 @@
      </div>
     </nav>
   </header>
-
+<%= render 'searches/search_header', user: @user, range: @range %>
   <%= flash[:notice] %>
 
     <%= yield %>
